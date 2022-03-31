@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Nethereum.Signer.EIP712" Version="4.1.1" />
+        <PackageReference Include="Nethereum.Web3" Version="4.1.0" />
+    </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="C:\Users\JustSomeTool\source\repos\long-legged-dockworker\sol\Sol.Contracts.csproj" />
+	</ItemGroup>
+    
+</Project>
